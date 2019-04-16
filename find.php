@@ -204,7 +204,7 @@
 
 					if ($numproposed)  $numreffiles++;
 
-					// Ask the user if they wany to replace the file with the proposed changes applied (if the option has been enabled).
+					// Ask the user if they want to replace the file with the proposed changes applied (if the option has been enabled).
 					if (isset($args["opts"]["ask"]) && $numproposed)
 					{
 						$args2 = array("opts" => array(), "params" => array());
