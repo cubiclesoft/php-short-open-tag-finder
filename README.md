@@ -60,4 +60,4 @@ For the curious, here's how the removal of short open tag support went down:
 
 https://wiki.php.net/rfc/deprecate_php_short_tags
 
-Notably, almost everyone who said "No" has `php-src.git` rights (i.e. aka "karma", which allows them to commit changes that modify the core of PHP).  My ballpark estimate is that there's about a 50-50 split among the votes of those users who have `php-src.git` rights.  Also of note, Zeev Suraski, one of the original designers of PHP and a member of the [PHP Group](https://www.php.net/credits.php) voted "No" for the change.
+Notably, almost everyone who said "No" has `php-src.git` rights (i.e. aka "karma", which allows them to commit changes that modify the core of PHP).  My ballpark estimate is that there's about a 50-50 split among the votes of those users who have `php-src.git` rights.  Also of note, Zeev Suraski and Rasmus Lerdorf, two of the original designers of PHP and current members of the [PHP Group](https://www.php.net/credits.php) voted "No" for the change.
