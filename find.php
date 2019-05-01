@@ -228,6 +228,10 @@
 	// Path to scan.
 	$path = realpath($args["params"][0]);
 
+	if (! is_dir($path)) {
+		exit("Sorry, the provided argument isn't a directory");
+	}
+
 	// What file extensions to look at (and keep tabs on the number of).
 	$exts = array(
 		"php" => 0,
