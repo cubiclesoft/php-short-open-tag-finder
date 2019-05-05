@@ -227,6 +227,7 @@
 
 	// Path to scan.
 	$path = realpath($args["params"][0]);
+	if ($path === false || !is_dir($path))  CLI::DisplayError("The supplied parameter '" . $args["params"][0] . "' is not a directory or does not exist.");
 
 	// What file extensions to look at (and keep tabs on the number of).
 	$exts = array(
