@@ -137,7 +137,7 @@
 							{
 								if (strtolower(trim(substr($tags[$x], 0, 3))) !== "xml" && strtolower(trim(substr($tags[$x], 0, 4))) !== "mso-")
 								{
-									$tags[$x] = "php" . ($tags[$x]{0} !== "\t" && $tags[$x]{0} !== " " && $tags[$x]{0} !== "\r" && $tags[$x]{0} !== "\n" ? " " : "") . $tags[$x];
+									$tags[$x] = "php" . ($tags[$x][0] !== "\t" && $tags[$x][0] !== " " && $tags[$x][0] !== "\r" && $tags[$x][0] !== "\n" ? " " : "") . $tags[$x];
 
 									$token[1] = implode("<" . "?", $tags);
 
